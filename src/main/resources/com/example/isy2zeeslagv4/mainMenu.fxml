@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane minHeight="540.0" minWidth="960.0" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.isy2zeeslagv4.controller.MainMenuController">
+   <children>
+      <Label fx:id="playerNameLabel" layoutX="873.0" layoutY="26.0" text="Test scene" />
+      <Button layoutX="434.0" layoutY="231.0" mnemonicParsing="false" text="Zeeslag online" />
+      <Button layoutX="434.0" layoutY="284.0" mnemonicParsing="false" onAction="#playBattleShipsLokaal" text="Zeeslag lokaal" />
+      <Label fx:id="serverStatusLabel" layoutX="25.0" layoutY="18.0" text="Server reached" />
+   </children>
+</AnchorPane>

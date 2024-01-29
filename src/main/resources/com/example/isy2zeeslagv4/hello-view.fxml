@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="helloViewAnchorPane" minHeight="540.0" minWidth="960.0" prefHeight="640.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.isy2zeeslagv4.controller.HelloController">
+   <children>
+      <TextField fx:id="helloViewNameBox" layoutX="438.0" layoutY="327.0" />
+      <Text layoutX="374.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font name="Dungeon" size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="191.0" fitWidth="402.0" layoutX="308.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/JTT Games logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="helloViewStartButton" layoutX="461.0" layoutY="378.0" mnemonicParsing="false" onAction="#handleStartButtonAction" prefHeight="35.0" prefWidth="77.0" style="-fx-background-color: FF6B33;" text="Start" />
+      <Label fx:id="label" contentDisplay="CENTER" layoutX="437.0" layoutY="303.0" prefHeight="17.0" prefWidth="149.0" text="halt" textAlignment="CENTER" textFill="RED" />
+      <CheckBox fx:id="rememberMeCheckBox" layoutX="609.0" layoutY="331.0" mnemonicParsing="false" text="Remember me" />
+   </children>
+</AnchorPane>
